@@ -1,13 +1,13 @@
 # Telemedicine API
 
-**По-русски** | [English version](docs_eng/README.md)
-
 Telemedicine API — это [телемедицинская платформа](https://www.doktornarabote.ru/telemedicine/), предоставляющая возможности по взаимодействию с врачами профессиональной социальной сети [Доктор на работе](https://www.doktornarabote.ru/AboutUs).
 
 ## Содержание
 
 ### Общая информация
 
+* Общая информация
+* Условия использования API
 * Авторизация
 * Ошибки и коды ответов
 * Контракты
