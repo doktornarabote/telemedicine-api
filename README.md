@@ -6,39 +6,39 @@ Telemedicine API — это [телемедицинская платформа](
 
 ### Общая информация
 
-* Общая информация
+* [Общая информация](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/general.md)
 * Условия использования API
-* Авторизация
-* Ошибки и коды ответов
-* Контракты
+* [Авторизация](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/authorization.md)
+* [Ошибки и коды ответов](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/errors.md)
+* [Контракты](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/contracts.md)
 
 ### Партнёр
 
-* Получение информации о партнёре
+* [Получение информации о партнёре](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/partner.md)
 
 ### Врачи
 
-* Поиск по врачам
-* Получение информации о враче
+* [Поиск по врачам](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/doctors.md)
+* [Получение информации о враче](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/doctors.md)
 
 ### Консультации с врачём
 
-* Обратный звонок
-  * Запуск консультации
-  * Поиск по консультациями
-  * Получение информации о консультации
-  * Прерывание консультации
+* [Обратный звонок](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
+  * [Запуск консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
+  * [Поиск по консультациями](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
+  * [Получение информации о консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
+  * [Прерывание консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
 
 ### Транзакции
 
-* Поиск по транзакциям
+* [Поиск по транзакциям](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/transactions.md)
 
 ### Справочники
 
-* Регионы
-* Медицинские специальности
-* Учёные степени
-* Должности
+* [Регионы](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/regions.md)
+* [Медицинские специальности](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/medicalspecialties.md)
+* [Учёные степени](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/degrees.md)
+* [Должности](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/medicalpositions.md)
 
 ## Поддержка, обратная связь, новости
 
