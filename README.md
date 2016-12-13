@@ -12,22 +12,26 @@ Telemedicine API — это [телемедицинская платформа](
 * [Ошибки и коды ответов](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/errors.md)
 * [Контракты](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/contracts.md)
 
-### Партнёр
-
-* [Получение информации о партнёре](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/partner.md)
-
 ### Врачи
 
 * [Поиск по врачам](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/doctors.md)
 * [Получение информации о враче](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/doctors.md)
 
-### Консультации с врачём
+### Консультации с врачом
 
 * [Обратный звонок](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
   * [Запуск консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
   * [Поиск по консультациями](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
   * [Получение информации о консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
   * [Прерывание консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
+
+### Партнёр
+
+* [Получение информации о партнёре](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/partner.md)
+
+### Корреспондентские счета
+
+* [Получение информация о счёте](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/correspondentaccounts.md)
 
 ### Транзакции
 
