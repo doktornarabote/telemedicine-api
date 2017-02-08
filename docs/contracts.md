@@ -10,8 +10,6 @@ firstName | string | имя
 middleName | string | отчество
 avatarUrl | string | url фотографии
 birthDate | string | дата рождения
-lastOnlineDate | string | дата последнего онлайна
-isOnline | boolean | признак онлайна
 region | object | регион (справочник регионов)
 degree | object | учёная степень (справочник учёных степеней)
 position | object | должность (справочник должностей)
@@ -27,8 +25,6 @@ consultationTypes | array | доступные виды консультаций
     "avatarUrl": "https://testimg1.doktornarabote.ru/avatars/636165454388001495/018056038069148088143208027233254133190214205136/0",
     "birthDate": "1964-03-10T00:00:00",
     "academicRating": 0,
-    "lastOnlineDate": "2012-01-07T23:29:56",
-    "isOnline": false,
     "region": {
         "id": 4003,
         "name": "Казахстан"

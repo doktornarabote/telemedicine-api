@@ -42,8 +42,6 @@ patientFullName | string | фио пациента
     "middleName": "Петровна",
     "avatarUrl": "https://testimg1.doktornarabote.ru/avatars/636165454388001495/018056038069148088143208027233254133190214205136/0",
     "birthDate": "1964-03-10T00:00:00",
-    "lastOnlineDate": "2012-01-07T23:29:56",
-    "isOnline": true,
     "region": {
       "id": 4003,
       "name": "Казахстан"
@@ -132,8 +130,6 @@ page | integer | № страницы (пропустить page * perPage за�
         "middleName": "Петровна",
         "avatarUrl": "https://testimg1.doktornarabote.ru/avatars/636165454388001495/018056038069148088143208027233254133190214205136/0",
         "birthDate": "1964-03-10T00:00:00",
-        "lastOnlineDate": "2012-01-07T23:29:56",
-        "isOnline": true,
         "region": {
           "id": 4003,
           "name": "Казахстан"
@@ -256,8 +252,6 @@ id | string | уникальный идентификатор консульта
     "middleName": "Петровна",
     "avatarUrl": "https://testimg1.doktornarabote.ru/avatars/636165454388001495/018056038069148088143208027233254133190214205136/0",
     "birthDate": "1964-03-10T00:00:00",
-    "lastOnlineDate": "2012-01-07T23:29:56",
-    "isOnline": true,
     "region": {
       "id": 4003,
       "name": "Казахстан"
