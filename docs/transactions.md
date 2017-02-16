@@ -20,33 +20,24 @@ page | integer | № страницы (пропустить page * perPage за�
   "items": [
     {
       "amount": {
-        "amount": -50,
+        "amount": 0,
         "currency": {
           "id": "RUB",
           "name": "руб."
         }
       },
-      "createdAtUtc": "2016-11-30T17:08:33",
-      "completedAtUtc": "2016-11-30T17:08:33",
-      "correspondentAccount": {
-        "id": "b90ffede-7381-470f-ac9f-6ac9a43bad3b",
-        "balance": {
-          "amount": 13750,
-          "currency": {
-            "id": "RUB",
-            "name": "руб."
-          }
-        }
-      },
+      "createdAtUtc": "2017-02-16T11:13:31",
+      "completedAtUtc": "2017-02-16T11:13:31",
+      "correspondentAccountId": "b90ffede-7381-470f-ac9f-6ac9a43bad3b",
       "operation": {
-        "id": "2fe9c653-7ad2-4f70-ada0-9bda7f59e8c6",
+        "id": "80b22b73-8bf3-4370-9d9d-cd69f266bd0c",
         "type": {
           "id": "Transfer",
           "name": "Перевод средств"
         },
         "description": "Списание за оказанние услуг связи",
-        "createdAtUtc": "2016-11-30T17:08:33",
-        "completedAtUtc": "2016-11-30T17:08:33"
+        "createdAtUtc": "2017-02-16T11:13:31",
+        "completedAtUtc": "2017-02-16T11:13:31"
       }
     }
   ],
