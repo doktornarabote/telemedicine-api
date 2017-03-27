@@ -148,7 +148,6 @@ number | string | номер
 --- | --- | ---
 id | string | уникальный идентификатор
 actor | object | участник (владелец телефонного номера)
-cost | object | стоимость
 duration | integer | продолжительность
 startedAtUtc | string | дата начала
 successful | boolean | признак успешно состоявшего звонка
@@ -159,9 +158,6 @@ successful | boolean | признак успешно состоявшего зв
     "actor": {
         "id": "Patient",
         "name": "Пациент"
-    },
-    "cost": {
-        //..
     },
     "duration": 17,
     "startedAtUtc": "2016-11-30T17:07:47",

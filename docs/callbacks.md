@@ -36,13 +36,6 @@ patientFullName | string | фио пациента
         "id": "Patient",
         "name": "Пациент"
       },
-      "cost": {
-        "amount": 50,
-        "currency": {
-          "id": "RUB",
-          "name": "руб."
-        }
-      },
       "duration": 11,
       "startedAtUtc": "2017-03-22T14:39:59",
       "successful": true
@@ -52,13 +45,6 @@ patientFullName | string | фио пациента
       "actor": {
         "id": "Doctor",
         "name": "Врач"
-      },
-      "cost": {
-        "amount": 0,
-        "currency": {
-          "id": "RUB",
-          "name": "руб."
-        }
       },
       "duration": 32,
       "startedAtUtc": "2017-03-22T14:39:39",
@@ -277,13 +263,6 @@ page | integer | № страницы (пропустить page * perPage за�
             "id": "Patient",
             "name": "Пациент"
           },
-          "cost": {
-            "amount": 50,
-            "currency": {
-              "id": "RUB",
-              "name": "руб."
-            }
-          },
           "duration": 11,
           "startedAtUtc": "2017-03-22T14:39:59",
           "successful": true
@@ -293,13 +272,6 @@ page | integer | № страницы (пропустить page * perPage за�
           "actor": {
             "id": "Doctor",
             "name": "Врач"
-          },
-          "cost": {
-            "amount": 0,
-            "currency": {
-              "id": "RUB",
-              "name": "руб."
-            }
           },
           "duration": 32,
           "startedAtUtc": "2017-03-22T14:39:39",
@@ -568,13 +540,6 @@ id | string | уникальный идентификатор консульта
       "actor": {
         "id": "Doctor",
         "name": "Врач"
-      },
-      "cost": {
-        "amount": 0,
-        "currency": {
-          "id": "RUB",
-          "name": "руб."
-        }
       },
       "duration": 3,
       "startedAtUtc": "2017-02-16T10:00:31",
