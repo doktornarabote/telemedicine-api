@@ -196,6 +196,84 @@ feedbacks | array | список отзывов (объет отзыв о кон
 }
 ```
 
+## Текстовая консультация
+
+Имя | Тип | Описание
+--- | --- | ---
+id | string | уникальный идентификатор
+costPerRequest | object | стоимость (объект денежные средства)
+status | object | статус
+correspondence | object | информация о сообщениях (объект переписка)
+createdAtUtc | string | дата создания
+doctor | object | врач, с которым проводится консультация (объект врач)
+patient | object | информация о пациенте
+statuses | array | история статусов консультации (объект история статуса консультации)
+transactions | array | список проведённых транзакций (объект транзакция)
+timeline | array | список возникавших событий (объект событие консультации)
+feedbacks | array | список отзывов (объет отзыв о консультации)
+
+```json
+{
+  "id": "273d9b37-dbb1-4c8c-9931-a76f00ea4669",
+  "status": {
+	"id": "PreProcessing",
+	"name": "Обрабатывается"
+  },
+  "costPerRequest": {
+	//..
+  },
+  "correspondence": {
+	//..
+  },
+  "createdAtUtc": "2017-05-10T14:12:58",
+  "doctor": {
+	//..
+  },
+  "patient": {
+	"partnerPatientId": "11 какой-то ИД паци$ента_00"
+  },
+  "statuses": [
+	//..
+  ],
+  "transactions": [
+	//..
+  ],
+  "timeline": [
+	//..
+  ],
+  "feedbacks": [
+	//..
+  ]
+}
+```
+
+## Переписка
+
+Имя | Тип | Описание
+--- | --- | ---
+unreadCount | integer | кол-во непрочитанных сообщений
+totalCount | integer | кол-во всего сообщений
+message | object | последнее сообщение (объект сообщение)
+
+```json
+{
+  "unreadCount": 0,
+  "totalCount": 1,
+  "message": {
+    "id": "4cfaa854-a184-4856-ae5f-a76f00ea4672",
+    "requestId": "273d9b37-dbb1-4c8c-9931-a76f00ea4669",
+    "sender": {
+  	  "id": "Patient",
+  	  "name": "Пациент"
+    },
+    "text": "hi, i've got a problem 2...",
+    "attachment": null,
+    "createdAtUtc": "2017-05-10T14:12:58",
+    "readAtUtc": null
+  }
+}
+```
+
 ## Телефон
 
 Имя | Тип | Описание

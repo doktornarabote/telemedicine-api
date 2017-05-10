@@ -24,6 +24,12 @@ Telemedicine API — это [телемедицинская платформа](
   * [Поиск по консультациями](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
   * [Получение информации о консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
   * [Прерывание консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
+* [Текстовая консультация](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
+  * [Запрос на консультацию](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
+  * [Отмена запроса на консультацию](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
+  * [Прерывание консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
+  * [Поиск по консультациям](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
+  * [Получение информации о консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
 
 ### Партнёр
 
