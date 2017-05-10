@@ -30,6 +30,8 @@ patientFullName | string | фио пациента
 --- | --- | ---
 ids | array | уникальные идентификаторы консультации вида обратный звонок
 statuses | array | статусы консультации
+order | string | сортировать по полю (Created, Status)
+asc | boolean | сортировать по возрастанию
 perPage | integer | кол-во записей в ответе
 page | integer | № страницы (пропустить page * perPage записей)
 
