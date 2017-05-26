@@ -69,8 +69,8 @@ ids | array | уникальные идентификаторы консульт
 statuses | array | статусы консультации
 order | string | сортировать по полю (Created, Status)
 asc | boolean | сортировать по возрастанию
-perPage | integer | кол-во записей в ответе
-page | integer | № страницы (пропустить page * perPage записей)
+limit | integer | кол-во (записей в ответе)
+offset | integer | смещение (сколько записей пропустить)
 
 ### Ответ
 

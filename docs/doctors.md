@@ -24,8 +24,8 @@ consultationTypes | array | идентификаторы видов консул
 availableAtUtc | string | планируемое дата и время консультации
 order | string | сортировать по полю (Rating, Requests, Feedbacks)
 asc | boolean | сортировать по возрастанию
-perPage | integer | кол-во записей в ответе
-page | integer | № страницы (пропустить page * perPage записей)
+limit | integer | кол-во (записей в ответе)
+offset | integer | смещение (сколько записей пропустить)
 
 ### Ответ:
 

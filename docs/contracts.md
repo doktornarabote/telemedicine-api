@@ -308,6 +308,7 @@ readAtUtc | string | дата прочтения адресатом
 id | string | уникальный идентификатор
 name | string | наименование
 mime | string | mime-type
+size | integer | размер byte
 
 ```json
 {
