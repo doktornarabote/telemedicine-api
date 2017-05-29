@@ -30,6 +30,18 @@ Telemedicine API — это [телемедицинская платформа](
   * [Прерывание консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
   * [Поиск по консультациям](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
   * [Получение информации о консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
+* [Интернет-звонок](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/voip.md)
+  * [Запрос на консультацию](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/voip.md)
+  * [Отмена запроса на консультацию](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/voip.md)
+  * [Прерывание консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/voip.md)
+  * [Поиск по консультациям](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/voip.md)
+  * [Получение информации о консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/voip.md)
+* [Видео-звонок](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/videocalls.md)
+  * [Запрос на консультацию](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/videocalls.md)
+  * [Отмена запроса на консультацию](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/videocalls.md)
+  * [Прерывание консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/videocalls.md)
+  * [Поиск по консультациям](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/videocalls.md)
+  * [Получение информации о консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/videocalls.md)
 
 ### Текстовые сообщения
 
