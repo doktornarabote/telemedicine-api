@@ -8,7 +8,7 @@ Telemedicine API — это [телемедицинская платформа](
 
 * [Общая информация](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/general.md)
 * [Политика конфиденциальности](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/policy.md)
-* Условия использования API
+* [Условия использования API](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/terms.md)
 * [Авторизация](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/authorization.md)
 * [Ошибки и коды ответов](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/errors.md)
 * [Контракты](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/contracts.md)
