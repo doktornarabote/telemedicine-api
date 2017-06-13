@@ -59,6 +59,10 @@ Telemedicine API — это [телемедицинская платформа](
 
 * [Получение информации о партнёре](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/partner.md)
 
+### Медицинская карта
+
+* [Получение информации о медицинской карте пациента](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/medicalcard.md)
+
 ### Корреспондентские счета
 
 * [Получение информация о счёте](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/correspondentaccounts.md)
