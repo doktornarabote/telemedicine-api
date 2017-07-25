@@ -2,7 +2,7 @@
 
 ## Получение списка должностей
 
-`GET /v1/medicalposition/get-all` вернёт список должностей.
+`GET /api/v1/medicalposition/get-all` вернёт список должностей.
 
 ### Запрос:
 

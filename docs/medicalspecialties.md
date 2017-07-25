@@ -2,7 +2,7 @@
 
 ## Получение списка специальностей
 
-`GET /v1/medicalspecialty/get-all` вернёт список специальностей.
+`GET /api/v1/medicalspecialty/get-all` вернёт список специальностей.
 
 ### Запрос:
 
