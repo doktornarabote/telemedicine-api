@@ -2,7 +2,7 @@
 
 ## Поиск транзакций
 
-`GET /v1/transaction/get-all` вернёт список транзакций.
+`GET /api/v1/transaction/get-all` вернёт список транзакций.
 
 ### Запрос:
 

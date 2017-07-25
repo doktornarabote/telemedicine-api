@@ -2,7 +2,7 @@
 
 ## Получение информации о счёте
 
-`GET /v1/correspondentaccount/get/{id}` вернёт информацию о счёте.
+`GET /api/v1/correspondentaccount/get/{id}` вернёт информацию о счёте.
 
 ### Запрос:
 
