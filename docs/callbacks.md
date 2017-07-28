@@ -11,6 +11,7 @@
 doctorId | integer | уникальный идентификатор врача
 patientPhone | object | телефонный номер пациента (объект телефон)
 patientFullName | string | фио пациента
+beginAtUtc | datetime | (optional) время начала консультации. Если параметр не указан, то консультация начнется сразу.
 
 ### Ответ:
 
