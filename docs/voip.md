@@ -59,6 +59,7 @@ doctorId | integer | уникальный идентификатор врача
 patientFullName | string | фио пациента
 videoSupport | boolean | поддержка видео во время консультации
 beginAtUtc | datetime | (optional) время начала консультации. Если параметр не указан, то консультация начнется сразу.
+duration | integer | (optional) максимальная длительность консультации в минутах.
 
 ### Ответ:
 
