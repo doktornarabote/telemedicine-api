@@ -60,7 +60,7 @@ patientFullName | string | фио пациента
 videoSupport | boolean | поддержка видео во время консультации
 beginAtUtc | datetime | (optional) время начала консультации. Если параметр не указан, то консультация начнется сразу.
 duration | integer | (optional) максимальная длительность консультации в минутах.
-attachment | file | (optional) информация с информацией о пациенте (может послужить предметом обсуждения во время консультации). Содержимое multipart/form-data, или { fileName: string, mediaType: string, buffer: byte[]}.
+attachment | file | (optional) информация с информацией о пациенте (может послужить предметом обсуждения во время консультации). Содержимое multipart/form-data, или { fileName: string, mediaType: string, buffer: byte[]}. Максимальный размер вложения 10 МБ.
 
 ### Ответ:
 
