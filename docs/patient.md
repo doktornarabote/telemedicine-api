@@ -30,7 +30,7 @@ firstName | string | имя пациента
 lastName | string | фамилия пациента
 patronimycName | string | отчество пациента
 bornOn | datetime | (optional) дата рождения
-sex | string | пол
+sex | string | пол. Возможные значения: M, W, U (unknown).
 weight | double | вес
 photoId | string | уникальный идентификатор уже загруженного фото
 
