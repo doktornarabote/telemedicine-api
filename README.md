@@ -20,21 +20,26 @@ Telemedicine API — это [телемедицинская платформа](
 
 ### Консультации с врачом
 
+* [Запросы на консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/requests.md)
+  * [Поиск по консультациям](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/requests.md)
+  * [Медицинские заключения](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/requests.md)
+  * [Загрузка и прикрепление документа к запросам на консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/requests.md)
 * [Обратный звонок](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
   * [Запуск консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
-  * [Поиск по консультациями](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
   * [Получение информации о консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
+  * [Поиск по консультациями](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
   * [Прерывание консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
 * [Текстовая консультация](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
   * [Запрос на консультацию](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
+  * [Получение информации о консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
+  * [Поиск по консультациям](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
+  * [Проверка наличия непрочитанных врачом сообщений](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
   * [Отмена запроса на консультацию](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
   * [Прерывание консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
-  * [Поиск по консультациям](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
-  * [Получение информации о консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
 * [Интернет-звонок](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/voip.md)
+  * [Запрос на консультацию](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/voip.md)
   * [Получение информации о консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/voip.md)
   * [Поиск по консультациям](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/voip.md)
-  * [Запрос на консультацию](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/voip.md)
   * [Отмена запроса / Прерывание консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/voip.md)
   * [Получение оставшегося времени до окончания ожидания врача](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/voip.md)
 
@@ -60,6 +65,8 @@ Telemedicine API — это [телемедицинская платформа](
 ### Медицинская карта
 
 * [Получение информации о медицинской карте пациента](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/medicalcard.md)
+* [Выдача доступа врачу к медицинской карте](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/medicalcard.md)
+* [Получение загруженных пациентом документов](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/medicalcard.md)
 
 ### Корреспондентские счета
 
@@ -68,6 +75,11 @@ Telemedicine API — это [телемедицинская платформа](
 ### Транзакции
 
 * [Поиск по транзакциям](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/transactions.md)
+
+### Жалобы на консультации
+
+* [Отправка жалобы](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/complaints.md)
+* [Получение информации о типах жалоб](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/complaints.md)
 
 ### Справочники
 
