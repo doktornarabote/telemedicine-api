@@ -16,11 +16,11 @@ middleName | string | отчество
 hasAvatar | boolean | признак наличия фотографии
 ageFrom | integer | мин. возраст
 ageTo | integer | макс. возраст
-regionIds | array | идентификаторы регионов
-specialtyIds | array | идентификаторы специальностей
-degreeIds | array | идентификаторы учёных степеней
-positionIds | array | идентификаторы должностей
-consultationTypes | array | идентификаторы видов консультаций
+regionIds | array<number> | идентификаторы регионов
+specialtyIds | array<number> | идентификаторы специальностей
+degreeIds | array<number> | идентификаторы учёных степеней
+positionIds | array<number> | идентификаторы должностей
+consultationTypes | array<string> | идентификаторы видов консультаций
 availableAtUtc | datetime | планируемое дата и время консультации
 availableFromUtc | datetime | дата и время, начиная с которых доступны консультации врачей
 availableToUtc | datetime | дата и время, по которые доступны консультации врачей
@@ -30,6 +30,8 @@ limit | integer | кол-во (записей в ответе)
 offset | integer | смещение (сколько записей пропустить)
 
 ### Ответ:
+
+[Объект врач](./contracts.md#doctor)
 
 ```json
 {
@@ -57,8 +59,35 @@ id | integer | уникальный идентификатор врача
 
 ### Ответ:
 
+[Объект врач](./contracts.md#doctor)
+
 ```json
 {
   //.. объект врач
+}
+```
+
+## Получение отзывов о враче
+
+`GET /api/v1/doctor/feedbacks` вернёт информацию о враче.
+
+### Запрос:
+
+Параметры: 
+
+Имя | Тип | Описание
+--- | --- | ---
+doctorId | integer | уникальный идентификатор врача
+currentPartnerOnly | boolean | уникальный идентификатор врача
+limit | integer | уникальный идентификатор врача (по умолчанию 10)
+offset | integer | уникальный идентификатор врача (по умолчанию 0)
+
+### Ответ:
+
+[Объект Рейтинг врача](./contracts.md#doctor-rating)
+
+```json
+{
+  //.. объект рейтинг врача
 }
 ```

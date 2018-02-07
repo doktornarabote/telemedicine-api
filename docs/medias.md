@@ -12,6 +12,8 @@ binary | string | multipart/form-data содержимое
 
 ### Ответ:
 
+[Объект Медиа](./contracts.md#media)
+
 ```json
 {
   //.. объект медиа
