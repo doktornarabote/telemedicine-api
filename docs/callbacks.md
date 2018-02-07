@@ -18,6 +18,8 @@ externalNotificationUrl | string | (optional) web-hook URL. По этому ад
 
 ### Ответ:
 
+[Объект Обратный звонок](./contracts.md#callback)
+
 ```json
 {
   //.. объект обратный звонок
@@ -36,6 +38,8 @@ id | string | уникальный идентификатор консульта
 
 ### Ответ
 
+[Объект Обратный звонок](./contracts.md#callback)
+
 ```json
 {
   //.. объект обратный звонок
@@ -51,13 +55,15 @@ id | string | уникальный идентификатор консульта
 Имя | Тип | Описание
 --- | --- | ---
 ids | array | уникальные идентификаторы консультации вида обратный звонок
-statuses | array | статусы консультации
+statuses | array<[Request Status](./contracts.md#request-status)> | статусы консультации
 order | string | сортировать по полю (Created, Status)
 asc | boolean | сортировать по возрастанию
 limit | integer | кол-во (записей в ответе)
 offset | integer | смещение (сколько записей пропустить)
 
 ### Ответ
+
+[Объект Обратный звонок](./contracts.md#callback)
 
 ```json
 {

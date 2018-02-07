@@ -18,6 +18,8 @@ externalNotificationUrl | string | (optional) web-hook URL. По этому ад
 
 ### Ответ:
 
+[Объект Интернет-звонок](./contracts.md#voip)
+
 ```json
 {
   //.. объект интернет-звонок
@@ -36,6 +38,8 @@ id | string | уникальный идентификатор консульта
 
 ### Ответ
 
+[Объект Интернет-звонок](./contracts.md#voip)
+
 ```json
 {
   //.. объект интернет-звонок
@@ -51,14 +55,16 @@ id | string | уникальный идентификатор консульта
 Имя | Тип | Описание
 --- | --- | ---
 ids | array | уникальные идентификаторы консультации вида интернет-звонок
-statuses | array | статусы консультации
+statuses | array<[Request Status](./contracts.md#request-status)> | статусы консультации
 order | string | сортировать по полю (Created, Status)
 asc | boolean | сортировать по возрастанию
 limit | integer | кол-во (записей в ответе)
 offset | integer | смещение (сколько записей пропустить)
-videoSupport | boolean | явное указание типа интернет-консультаций
+videoSupport | boolean | явное указание типа интернет-консультаций (видео или аудио)
 
 ### Ответ
+
+[Объект Интернет-звонок](./contracts.md#voip)
 
 ```json
 {

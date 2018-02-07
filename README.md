@@ -6,87 +6,88 @@ Telemedicine API — это [телемедицинская платформа](
 
 ### Общая информация
 
-* [Общая информация](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/general.md)
-* [Политика конфиденциальности](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/policy.md)
-* [Условия использования API](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/terms.md)
-* [Авторизация](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/authorization.md)
-* [Ошибки и коды ответов](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/errors.md)
-* [Контракты](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/contracts.md)
+* [Общая информация](./general.md)
+* [Политика конфиденциальности](./policy.md)
+* [Условия использования API](./terms.md)
+* [Авторизация](./authorization.md)
+* [Ошибки и коды ответов](./errors.md)
+* [Контракты](./contracts.md)
 
 ### Врачи
 
-* [Поиск по врачам](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/doctors.md)
-* [Получение информации о враче](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/doctors.md)
+* [Поиск по врачам](./doctors.md)
+* [Получение информации о враче](./doctors.md)
+* [Получение отзывов о враче](./doctors.md)
 
 ### Консультации с врачом
 
-* [Запросы на консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/requests.md)
-  * [Поиск по консультациям](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/requests.md)
-  * [Медицинские заключения](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/requests.md)
-  * [Загрузка и прикрепление документа к запросам на консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/requests.md)
-* [Обратный звонок](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
-  * [Запуск консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
-  * [Получение информации о консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
-  * [Поиск по консультациями](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
-  * [Прерывание консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/callbacks.md)
-* [Текстовая консультация](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
-  * [Запрос на консультацию](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
-  * [Получение информации о консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
-  * [Поиск по консультациям](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
-  * [Проверка наличия непрочитанных врачом сообщений](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
-  * [Отмена запроса на консультацию](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
-  * [Прерывание консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/writings.md)
-* [Интернет-звонок](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/voip.md)
-  * [Запрос на консультацию](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/voip.md)
-  * [Получение информации о консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/voip.md)
-  * [Поиск по консультациям](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/voip.md)
-  * [Отмена запроса / Прерывание консультации](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/voip.md)
-  * [Получение оставшегося времени до окончания ожидания врача](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/voip.md)
+* [Запросы на консультации](./requests.md)
+  * [Поиск по консультациям](./requests.md)
+  * [Медицинские заключения](./requests.md)
+  * [Загрузка и прикрепление документа к запросам на консультации](./requests.md)
+* [Обратный звонок](./callbacks.md)
+  * [Запуск консультации](./callbacks.md)
+  * [Получение информации о консультации](./callbacks.md)
+  * [Поиск по консультациями](./callbacks.md)
+  * [Прерывание консультации](./callbacks.md)
+* [Текстовая консультация](./writings.md)
+  * [Запрос на консультацию](./writings.md)
+  * [Получение информации о консультации](./writings.md)
+  * [Поиск по консультациям](./writings.md)
+  * [Проверка наличия непрочитанных врачом сообщений](./writings.md)
+  * [Отмена запроса на консультацию](./writings.md)
+  * [Прерывание консультации](./writings.md)
+* [Интернет-звонок](./voip.md)
+  * [Запрос на консультацию](./voip.md)
+  * [Получение информации о консультации](./voip.md)
+  * [Поиск по консультациям](./voip.md)
+  * [Отмена запроса / Прерывание консультации](./voip.md)
+  * [Получение оставшегося времени до окончания ожидания врача](./voip.md)
 
 ### Текстовые сообщения
 
-* [Добавление сообщения](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/messages.md)
-* [Получение списка сообщений](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/messages.md)
-* [Пометить сообщения как прочитанные](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/messages.md)
+* [Добавление сообщения](./messages.md)
+* [Получение списка сообщений](./messages.md)
+* [Пометить сообщения как прочитанные](./messages.md)
 
 ### Медиа (Файлы)
 
-* [Добавление медиа](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/medias.md)
-* [Получение информации о медиа](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/medias.md)
+* [Добавление медиа](./medias.md)
+* [Получение информации о медиа](./medias.md)
 
 ### Партнёр
 
-* [Получение информации о партнёре](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/partner.md)
+* [Получение информации о партнёре](./partner.md)
 
 ### Пациент
 
-* [Получение информации о пациенте](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/patient.md)
+* [Получение информации о пациенте](./patient.md)
 
 ### Медицинская карта
 
-* [Получение информации о медицинской карте пациента](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/medicalcard.md)
-* [Выдача доступа врачу к медицинской карте](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/medicalcard.md)
-* [Получение загруженных пациентом документов](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/medicalcard.md)
+* [Получение информации о медицинской карте пациента](./medicalcard.md)
+* [Выдача доступа врачу к медицинской карте](./medicalcard.md)
+* [Получение загруженных пациентом документов](./medicalcard.md)
 
 ### Корреспондентские счета
 
-* [Получение информация о счёте](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/correspondentaccounts.md)
+* [Получение информация о счёте](./correspondentaccounts.md)
 
 ### Транзакции
 
-* [Поиск по транзакциям](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/transactions.md)
+* [Поиск по транзакциям](./transactions.md)
 
 ### Жалобы на консультации
 
-* [Отправка жалобы](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/complaints.md)
-* [Получение информации о типах жалоб](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/complaints.md)
+* [Отправка жалобы](./complaints.md)
+* [Получение информации о типах жалоб](./complaints.md)
 
 ### Справочники
 
-* [Регионы](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/regions.md)
-* [Медицинские специальности](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/medicalspecialties.md)
-* [Учёные степени](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/degrees.md)
-* [Должности](https://github.com/doktornarabote/telemedicine-api/blob/master/docs/medicalpositions.md)
+* [Регионы](./regions.md)
+* [Медицинские специальности](./medicalspecialties.md)
+* [Учёные степени](./degrees.md)
+* [Должности](./medicalpositions.md)
 
 ## Поддержка, обратная связь, новости
 
