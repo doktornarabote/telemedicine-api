@@ -12,7 +12,7 @@ id | string | уникальный идентификатор пациента
 
 ### Ответ:
 
-[Объект Пациент](./contracts.md#Patient)
+[Объект Пациент](./contracts.md#patient)
 
 ```json
 {
@@ -38,7 +38,7 @@ photoId | string | уникальный идентификатор уже заг
 
 ### Ответ:
 
-[Объект Пациент](./contracts.md#Patient)
+[Объект Пациент](./contracts.md#patient)
 
 ```json
 {

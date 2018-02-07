@@ -10,7 +10,7 @@
 
 ### Ответ:
 
-[Объект Партнер](./contracts.md#Partner)
+[Объект Партнер](./contracts.md#partner)
 
 ```json
 {
