@@ -10,13 +10,13 @@ firstName | string | имя
 middleName | string | отчество
 avatarUrl | string | url фотографии
 birthDate | string | дата рождения
-region | [Region](./contracts.md#Region) | регион
-degree | [Degree](./contracts.md#Degree) | учёная степень
-position | [Position](./contracts.md#Position) | должность
-summary | [Doctor Summary](./contracts.md#Doctor-Summary) | статистическая информация
-account | [Doctor Settings](./contracts.md#Doctor-Settings) | учётная запись
-specialties | array<[Specialty](./contracts.md#Specialty)> | медицинские специальности
-consultationTypes | array<[Consultation Type](./contracts.md#Consultation-Type)> | доступные виды консультаций
+region | [Region](./contracts.md#region) | регион
+degree | [Degree](./contracts.md#degree) | учёная степень
+position | [Position](./contracts.md#position) | должность
+summary | [Doctor Summary](./contracts.md#doctor-summary) | статистическая информация
+account | [Doctor Settings](./contracts.md#doctor-settings) | учётная запись
+specialties | array<[Specialty](./contracts.md#specialty)> | медицинские специальности
+consultationTypes | array<[Consultation Type](./contracts.md#consultation-type)> | доступные виды консультаций
 
 ```json
 {
@@ -69,7 +69,7 @@ consultationTypes | array<[Consultation Type](./contracts.md#Consultation-Type)>
 doctorId | integer | уникальный идентификатор врача
 rating | float | общий рейтинг
 partnerRating | float | рейтинг в рамках текущего партнера
-consultationFeedbackList | array<[Doctor Feedback](./contracts.md#Doctor-Feedback)> | рейтинг в рамках текущего партнера
+consultationFeedbackList | array<[Doctor Feedback](./contracts.md#doctor-feedback)> | рейтинг в рамках текущего партнера
 
 ```json
 {
@@ -89,7 +89,7 @@ consultationFeedbackList | array<[Doctor Feedback](./contracts.md#Doctor-Feedbac
 id | string | уникальный идентификатор
 type | object | тип консультации
 cost | [Money](./contracts.md#money) | стоимость
-timeSchedules | array<[Time interval](./contracts.md#Time-interval)> | график доступности
+timeSchedules | array<[Time interval](./contracts.md#time-interval)> | график доступности
 isAvailable | boolean | признак доступности консультации
 isDisabled | boolean | признак запрета на проведение консультации
 
@@ -168,15 +168,15 @@ createdAtUtc | datetime | дата создания консультации
 beginAtUtc | datetime | дата начала консультации
 doctorFullName | string | имя доктора
 patientFullName | string | имя пациента
-medicalReport | [Medical Report](./contracts.md#Medical-Report) | заключение врача
-doctor | [Doctor](./contracts.md#Doctor) | врач, с которым проводится консультация
-patient | [Patient](./contracts.md#Patient) | информация о пациенте
-statuses | array<[Status History](./contracts.md#Status-History)> | история статусов консультации
-transactions | array<[Transaction](./contracts.md#Transaction)> | список проведённых транзакций
-timeline | array<[Timeline Event](./contracts.md#Timeline-Event)> | список возникавших событий
-feedbacks | array<[Feedback](./contracts.md#Feedback)> | список отзывов
+medicalReport | [Medical Report](./contracts.md#medical-report) | заключение врача
+doctor | [Doctor](./contracts.md#doctor) | врач, с которым проводится консультация
+patient | [Patient](./contracts.md#patient) | информация о пациенте
+statuses | array<[Status History](./contracts.md#status-history)> | история статусов консультации
+transactions | array<[Transaction](./contracts.md#transaction)> | список проведённых транзакций
+timeline | array<[Timeline Event](./contracts.md#timeline-event)> | список возникавших событий
+feedbacks | array<[Feedback](./contracts.md#feedback)> | список отзывов
 isComplaintSent | boolean | идентификатор того, была ли послана жалоба текущим пациентом по данной консультации
-attachments | array<[Media](./contracts.md#Media)> | список вложенных файлов
+attachments | array<[Media](./contracts.md#media)> | список вложенных файлов
 
 ```json
 {
@@ -229,20 +229,20 @@ id | string | уникальный идентификатор
 type | object | тип консультации
 costPerRequest | [Money](./contracts.md#Money) | стоимость
 status | object | статус
-correspondence | [Correspondence](./contracts.md#Correspondence) | информация о сообщениях
+correspondence | [Correspondence](./contracts.md#correspondence) | информация о сообщениях
 createdAtUtc | datetime | дата создания консультации
 beginAtUtc | datetime | дата начала консультации
 doctorFullName | string | имя доктора
 patientFullName | string | имя пациента
-medicalReport | [Medical Report](./contracts.md#Medical-Report) | заключение врача
-doctor | [Doctor](./contracts.md#Doctor) | врач, с которым проводится консультация
-patient | [Patient](./contracts.md#Patient) | информация о пациенте
-statuses | array<[Status History](./contracts.md#Status-History)> | история статусов консультации
-transactions | array<[Transaction](./contracts.md#Transaction)> | список проведённых транзакций
-timeline | array<[Timeline Event](./contracts.md#Timeline-Event)> | список возникавших событий
-feedbacks | array<[Feedback](./contracts.md#Feedback)> | список отзывов
+medicalReport | [Medical Report](./contracts.md#medical-report) | заключение врача
+doctor | [Doctor](./contracts.md#doctor) | врач, с которым проводится консультация
+patient | [Patient](./contracts.md#patient) | информация о пациенте
+statuses | array<[Status History](./contracts.md#status-history)> | история статусов консультации
+transactions | array<[Transaction](./contracts.md#transaction)> | список проведённых транзакций
+timeline | array<[Timeline Event](./contracts.md#timeline-event)> | список возникавших событий
+feedbacks | array<[Feedback](./contracts.md#feedback)> | список отзывов
 isComplaintSent | boolean | идентификатор того, была ли послана жалоба текущим пациентом по данной консультации
-attachments | array<[Media](./contracts.md#Media)> | список вложенных файлов
+attachments | array<[Media](./contracts.md#media)> | список вложенных файлов
 
 ```json
 {
@@ -299,25 +299,25 @@ attachments | array<[Media](./contracts.md#Media)> | список вложенн
 --- | --- | ---
 id | string | уникальный идентификатор
 type | object | тип консультации
-patientPhone | [Phone](./contracts.md#Phone) | телефон, на который поступит звонок для консультации
+patientPhone | [Phone](./contracts.md#phone) | телефон, на который поступит звонок для консультации
 doctorFullName | string | фио врача
 patientFullName | string | фио пациента
 costPerMinute | [Money](./contracts.md#money) | стоимость
-calls | array<[Call](./contracts.md#Call)> | список осуществлённых звонков
+calls | array<[Call](./contracts.md#call)> | список осуществлённых звонков
 status | object | статус
 createdAtUtc | datetime | дата создания консультации
 beginAtUtc | datetime | дата начала консультации
 doctorFullName | string | имя доктора
 patientFullName | string | имя пациента
-medicalReport | [Medical Report](./contracts.md#Medical-Report) | заключение врача
-doctor | [Doctor](./contracts.md#Doctor) | врач, с которым проводится консультация
-patient | [Patient](./contracts.md#Patient) | информация о пациенте
-statuses | array<[Status History](./contracts.md#Status-History)> | история статусов консультации
-transactions | array<[Transaction](./contracts.md#Transaction)> | список проведённых транзакций
-timeline | array<[Timeline-Event](./contracts.md#Timeline-Event)> | список возникавших событий
-feedbacks | array<[Feedback](./contracts.md#Feedback)> | список отзывов
+medicalReport | [Medical Report](./contracts.md#medical-report) | заключение врача
+doctor | [Doctor](./contracts.md#doctor) | врач, с которым проводится консультация
+patient | [Patient](./contracts.md#patient) | информация о пациенте
+statuses | array<[Status History](./contracts.md#status-history)> | история статусов консультации
+transactions | array<[Transaction](./contracts.md#transaction)> | список проведённых транзакций
+timeline | array<[Timeline-Event](./contracts.md#timeline-event)> | список возникавших событий
+feedbacks | array<[Feedback](./contracts.md#feedback)> | список отзывов
 isComplaintSent | boolean | идентификатор того, была ли послана жалоба текущим пациентом по данной консультации
-attachments | array<[Media](./contracts.md#Media)> | список вложенных файлов
+attachments | array<[Media](./contracts.md#media)> | список вложенных файлов
 
 ```json
 {
@@ -380,20 +380,20 @@ attachments | array<[Media](./contracts.md#Media)> | список вложенн
 id | string | уникальный идентификатор
 type | object | тип консультации
 status | object | статус
-costPerMinute | [Money](./contracts.md#Money) | стоимость за минуту
+costPerMinute | [Money](./contracts.md#money) | стоимость за минуту
 createdAtUtc | datetime | дата создания консультации
 beginAtUtc | datetime | дата начала консультации
 doctorFullName | string | имя доктора
 patientFullName | string | имя пациента
-medicalReport | [Medical Report](./contracts.md#Medical-Report) | заключение врача
-doctor | [Doctor](./contracts.md#Doctor) | врач, с которым проводится консультация
-patient | [Patient](./contracts.md#Пациент) | информация о пациенте
-statuses | array<[Status History](./contracts.md#Status-History)> | история статусов консультации
-transactions | array<[Transaction](./contracts.md#Transaction)> | список проведённых транзакций
-timeline | array<[Timeline Event](./contracts.md#Timeline-Event)> | список возникавших событий
-feedbacks | array<[Feedback](./contracts.md#Feedback)> | список отзывов
-attachments | array<[Media](./contracts.md#Media)> | список вложенных файлов
-calls | array<[Call](./contracts.md#Call)> | индикатор наличия видеосвязи
+medicalReport | [Medical Report](./contracts.md#medical-report) | заключение врача
+doctor | [Doctor](./contracts.md#doctor) | врач, с которым проводится консультация
+patient | [Patient](./contracts.md#Patient) | информация о пациенте
+statuses | array<[Status History](./contracts.md#status-history)> | история статусов консультации
+transactions | array<[Transaction](./contracts.md#transaction)> | список проведённых транзакций
+timeline | array<[Timeline Event](./contracts.md#timeline-event)> | список возникавших событий
+feedbacks | array<[Feedback](./contracts.md#feedback)> | список отзывов
+attachments | array<[Media](./contracts.md#media)> | список вложенных файлов
+calls | array<[Call](./contracts.md#call)> | индикатор наличия видеосвязи
 isComplaintSent | boolean | идентификатор того, была ли послана жалоба текущим пациентом по данной консультации
 videoSupport | boolean | индикатор наличия видеосвязи
 
@@ -453,7 +453,7 @@ videoSupport | boolean | индикатор наличия видеосвязи
 --- | --- | ---
 unreadCount | integer | кол-во непрочитанных сообщений
 totalCount | integer | кол-во всего сообщений
-message | [Message](./contracts.md#Message) | последнее сообщение
+message | [Message](./contracts.md#message) | последнее сообщение
 
 ```json
 {
@@ -482,7 +482,7 @@ id | string | уникальный идентификатор
 requestId | string | идентификатор консультации
 sender | object | отправитель (участник)
 text | string | текстовое содержимое сообщения
-attachment | [Media](./contracts.md#Media) | приложение
+attachment | [Media](./contracts.md#media) | приложение
 createdAtUtc | datetime | дата создания
 readAtUtc | datetime | дата прочтения адресатом
 
@@ -505,10 +505,10 @@ readAtUtc | datetime | дата прочтения адресатом
 
 Имя | Тип | Описание
 --- | --- | ---
-doctor | [Doctor](./contracts.md#Doctor) | врач, который написал заключение
+doctor | [Doctor](./contracts.md#doctor) | врач, который написал заключение
 text | string | текстовое содержимое заключения (свободная форма)
 createdAtUtc | datetime | дата создания
-attachments | array<[Media](./contracts.md#Media)> | массив приложений
+attachments | array<[Media](./contracts.md#media)> | массив приложений
 
 ```json
 {
@@ -534,7 +534,7 @@ patronimycName | string | отчество
 bornOn | string | дата рождения
 weight | number | вес
 sex | object | пол
-photo | [Media](./contracts.md#Media) | фотография
+photo | [Media](./contracts.md#media) | фотография
 
 ```json
 {
@@ -558,8 +558,8 @@ photo | [Media](./contracts.md#Media) | фотография
 
 Имя | Тип | Описание
 --- | --- | ---
-patient | [Patient](./contracts.md#Patient) | информация о пациенте
-medicalReports | array<[Medical report](./contracts.md#Medical-report)> | массив заключений
+patient | [Patient](./contracts.md#patient) | информация о пациенте
+medicalReports | array<[Medical report](./contracts.md#medical-report)> | массив заключений
 
 ## Phone
 
@@ -615,7 +615,7 @@ amount | object | сумма
 createdAtUtc | datetime | дата создания
 completedAtUtc | datetime | дата завершения
 correspondentAccountId | string | идентификатор корреспондентского счёта
-operation | [Operation](./contracts.md#Operation) | операция, в рамках которой проводилась транзакция
+operation | [Operation](./contracts.md#operation) | операция, в рамках которой проводилась транзакция
 
 ## Operation
 
@@ -662,7 +662,7 @@ actor | object | участник (инициатор действия)
 Имя | Тип | Описание
 --- | --- | ---
 rate | float | оценка
-consultationType | integer | тип консультации в численном виде [Request Type](./contracts.md#Request-Type)
+consultationType | integer | тип консультации в численном виде [Request Type](./contracts.md#request-type)
 comment | string | текстовый комментарий
 createdAtUtc | datetime | дата добавления
 patientName | string | имя пациента
@@ -683,7 +683,7 @@ patientName | string | имя пациента
 --- | --- | ---
 id | string | уникальный идентификатор
 title | string | наименование
-correspondentAccounts | array<[Correspondent Account](./contracts.md#Correspondent-Account)> | массив счетов
+correspondentAccounts | array<[Correspondent Account](./contracts.md#correspondent-account)> | массив счетов
 
 ```json
 {
@@ -701,7 +701,7 @@ correspondentAccounts | array<[Correspondent Account](./contracts.md#Corresponde
 Имя | Тип | Описание
 --- | --- | ---
 id | string | уникальный идентификатор
-balance | [Money](./contracts.md#Money) | баланс
+balance | [Money](./contracts.md#money) | баланс
 
 ```json
 {
@@ -717,7 +717,7 @@ balance | [Money](./contracts.md#Money) | баланс
 Имя | Тип | Описание
 --- | --- | ---
 amount | numeric | Сумма
-currency | [Currency](./contracts.md#Currency) | валюта
+currency | [Currency](./contracts.md#currency) | валюта
 
 ```json
 {
@@ -806,7 +806,6 @@ id | string | уникальный идентификатор
 url | string | url медиа
 name | string | наименование
 mime | string | mime-type
-mimeCategoryId | integer | ID [MIME-категории](./contracts.md#mime-type-category)
 size | integer | размер byte
 image | object | информация об изображении
 

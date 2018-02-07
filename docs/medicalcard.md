@@ -12,7 +12,7 @@ id | string | уникальный идентификатор пациента
 
 ### Ответ:
 
-[Объект Медицинская карта](./contracts.md#Medical-Card)
+[Объект Медицинская карта](./contracts.md#medical-card)
 
 ```json
 {
@@ -33,7 +33,7 @@ expiredAtUtc | datetime | дата окончания доступа врача 
 
 ### Ответ:
 
-[Объект Медицинская карта](./contracts.md#Medical-Card)
+[Объект Медицинская карта](./contracts.md#medical-card)
 
 ```json
 {

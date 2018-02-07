@@ -14,7 +14,7 @@ id | string | уникальный идентификатор счёта
 
 ### Ответ:
 
-[Объект Корреспондентский счёт](./contracts.md#Correspondent-Account)
+[Объект Корреспондентский счёт](./contracts.md#correspondent-account)
 
 ```json
 {
