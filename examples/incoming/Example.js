@@ -38,13 +38,13 @@ Example = (function() {
             buttons.answer.hidden = true;
         });
     
-        document.getElementById('hangup').addEventListener('click', function() {
+        buttons.hangup.addEventListener('click', function() {
             DoctorAtWorkTM.call.hangup();
             hideAllButtons();
             showInfo('Call ended');
         });
     
-        document.getElementById('reject').addEventListener('click', function () {
+        buttons.reject.addEventListener('click', function () {
             DoctorAtWorkTM.call.reject();
             hideAllButtons();
         });
