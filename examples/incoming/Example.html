@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Telemedicine Example</title>
+    <meta name="viewport" content="width=device-width"> 
+<body>
+    <header>
+        <h1>Hello, world!</h1>
+        <hr>
+    </header>
+
+    <h1 id="info"></h1>
+
+    <div>
+        <h3>Me</h3>
+        <style>
+            #localContainer,
+            #localContainer video {
+                width: 400px;
+                height: 300px;
+            }
+        </style>
+        <div id="localContainer" style="border:1px solid #000;"></div>
+
+        <h3>Doctor</h3>
+        <style>
+            #remoteContainer,
+            #remoteContainer video {
+                width: 640px;
+                height: 480px;
+            }
+        </style>
+        <div id="remoteContainer" style="border:1px solid #000;"></div>
+        
+        <style>
+            #btn-container button {
+                margin-left: 15px;
+            }
+        </style>
+        <div id="btn-container">
+            <button type="button" id="answer">Answer</button>
+            <button type="button" id="hangup">Hangup</button>
+            <button type="button" id="reject">Reject</button>
+        </div>
+    </div>
+
+    <footer>
+        <hr>
+        <h4>End-of-Hello-world</h4>
+    </footer>
+
+    <script src="https://files.doktornarabote.ru/tm/test_platform/doctoratwork.tm.js"></script>
+    <script src="/Example_2.js"></script>
+    <script>
+        /* You can invoke Example.setConfig multiple times */
+        Example.setConfig({
+            authToken: 'eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOlsiUGFydG5lciIsIlBhdGllbnQiXSwiUGFydG5lcklkIjoiZDg3MjJiNGQtMTBiZi00MzI0LTk1ZmUtYzdmMTk1YTlmZThjIiwiUGF0aWVudElkIjoiMDA5Njk1YWQtMWRhMy00ZjJmLWJjNTYtYTdjODAwZDk4M2Y1IiwibmJmIjoxNTE4Nzc3MDUwLCJleHAiOjE1MTk5ODY2NTAsImlzcyI6Imh0dHBzOi8vdGVzdGF1dGh0bS5kb2t0b3JuYXJhYm90ZS5ydSIsImF1ZCI6IjE3NWNlZTVlZjkwOTRhNjM4ZDVkN2JhNzNhM2Y5NTQyIn0.KIyZ87_IiMgfZ813-NzagAW67GvfChzPc39mRRjr-tU',
+            videoSupport: true,
+            localVideoContainerId: 'localContainer',
+            remoteVideoContainerId: 'remoteContainer',
+            width: 640, /* 640px */
+            height: 480 /* 480px */
+        });
+    </script>
+</body>
+</html>
