@@ -34,7 +34,7 @@
 availableAtUtc | datetime | доступность специальности в указанное время
 availableFromUtc | datetime | доступность специальности, начиная с указанного времени
 availableToUtc | datetime | доступность специальности по указанное время
-consultationTypes | array<[RequestType](./contracts.md##request-type)> | доступность специальностей в указанное время с определенными типами консультаций, принимает строковые или численные значения.
+consultationTypes | array<[RequestType](./contracts.md#request-type)> | доступность специальностей в указанное время с определенными типами консультаций, принимает строковые или численные значения.
 specialtyIds | array<number> | доступность указанных специальностей
 
 ### Ответ:
